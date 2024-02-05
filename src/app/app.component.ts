@@ -8,6 +8,9 @@ import { CounterControlsComponent } from './counter-controls/counter-controls.co
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   standalone: true,
-  imports: [CounterOutputComponent, CounterControlsComponent],
+  imports: [
+    CounterOutputComponent, 
+    CounterControlsComponent,
+  ],
 })
 export class AppComponent {}
